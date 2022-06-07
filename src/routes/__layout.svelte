@@ -3,7 +3,7 @@
     import "@fontsource/blackout-midnight"
     import "@fontsource/iosevka"
     import "../app.scss";
-    import Header from '../components/header.svelte'
+    import Navbar from '../components/navbar.svelte'
 </script>
-<Header/>
+<Navbar/>
 <slot></slot>

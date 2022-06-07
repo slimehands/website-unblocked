@@ -17,7 +17,6 @@ specifiers:
   sass: ^1.49.11
   svelte: ^3.44.0
   svelte-check: ^2.2.6
-  svelte-dark-mode: ^2.1.0
   svelte-preprocess: ^4.10.5
   tslib: ^2.3.1
   typescript: ~4.6.2
@@ -41,7 +40,6 @@ devDependencies:
   sass: 1.52.2
   svelte: 3.48.0
   svelte-check: 2.7.2_sass@1.52.2+svelte@3.48.0
-  svelte-dark-mode: 2.1.0
   svelte-preprocess: 4.10.7_vbf3ldgdgfrwq5dy5oqbpa6e3a
   tslib: 2.4.0
   typescript: 4.6.4
@@ -2048,10 +2046,6 @@ packages:
       - sass
       - stylus
       - sugarss
-    dev: true
-
-  /svelte-dark-mode/2.1.0:
-    resolution: {integrity: sha512-/QmIqWGwzcfE82FAMuHBlKFwudW7Vcos60Ii8j/mJZ0H6kGAXwL5EGlcc8voBJMJv/i0QZmhp5b1ZX/XKg9NJQ==}
     dev: true
 
   /svelte-hmr/0.14.12_svelte@3.48.0:

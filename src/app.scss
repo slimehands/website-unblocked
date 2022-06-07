@@ -1,16 +1,22 @@
-
-p{ 
+body{
+    transition:background-color, 1s;
+    transition:color, 1s
+}
+body{ 
     font-family: 'Aileron';
     font-size: 20px;
 }
 h1{
     font-family: 'Blackout Midnight';
+    font-size: 40px;
 }
 h2{
     font-family: 'Blackout Midnight';
+    font-size: 30px;
 }
 h3{
     font-family: 'Blackout Midnight';
+    font-size: 20px;
 }
 code{
     background-color: #BBB;
@@ -20,10 +26,11 @@ code{
 body.dark{
     background-color:black;
     color:whitesmoke;
+    code{
+        background-color: #555;
+        }
+    
 }
 
 
-code.dark{
-background-color: #555;
-color:whitesmoke;
-}
+
