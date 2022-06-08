@@ -1,0 +1,8 @@
+# Commands to start on workspace startup
+tasks:
+  - init: pnpm install
+    command: pnpm build
+# Ports to expose on workspace startup
+ports:
+  - port: 3000
+    onOpen: open-preview
