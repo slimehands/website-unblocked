@@ -3,7 +3,7 @@ body{
     transition:color, 1s
 }
 body{ 
-    font-family: 'Aileron';
+    font-family: $sans;
     font-size: 20px;
 }
 h1{
@@ -23,12 +23,19 @@ code{
     border-radius: 1vh;
     font-family: 'Iosevka'
 }
+button{
+    font-family: $sans;
+    background-color: #BBB;
+}
 body.dark{
     background-color:black;
     color:whitesmoke;
     code{
         background-color: #555;
         }
+    button{
+        background-color: #555;
+    }
     
 }
 
