@@ -1,7 +1,7 @@
 # Commands to start on workspace startup
 tasks:
   - init: pnpm install
-    command: pnpm build
+    command: pnpm run dev
 # Ports to expose on workspace startup
 ports:
   - port: 3000
